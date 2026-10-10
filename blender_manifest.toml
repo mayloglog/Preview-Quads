@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "Preview_Quads"
+name = "Preview Quads"
+version = "1.0.0"
+tagline = "Non-destructive triangulated-to-quad live preview tool"
+maintainer = "maylog"
+type = "add-on"
+tags = ["Mesh", "Modeling"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://github.com/mayloglog/Preview-Quads"
+credits = [
+    "2026 maylog – current maintainer",
+]
