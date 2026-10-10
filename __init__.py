@@ -5,7 +5,6 @@ bl_info = {
     "blender": (5, 0, 0),
     "location": "View3D > Sidebar > Preview Quads",
     "description": "Non-destructive triangulated-to-quad live preview tool",
-    "category": "Mesh", "Modeling" ,
     "tracker_url": "https://github.com/mayloglog/Preview-Quads",
 }
 
@@ -279,7 +278,7 @@ def register():
         subtype='ANGLE', update=on_setting_update,
     )
     bpy.types.Object.t2q_face_weight = bpy.props.FloatProperty(
-        name="Face Weight", default=1.1, min=-10.0, max=10.0,
+        name="Face Weight", default=1.1, min=0, max=2,
         update=on_setting_update,
     )
     bpy.types.Object.t2q_cmp_uvs = bpy.props.BoolProperty(
