@@ -23,7 +23,7 @@ In my own workflow, it serves as a pre-conversion step to manually clean up edge
   
 - **Teaching and demonstration**: Visually compare the topological differences between triangulated and quad meshes.
 
-Known Limitations:
+## Known Limitations:
 
 - You cannot toggle the preview while in Edit Mode.
   
